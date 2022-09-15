@@ -46,7 +46,7 @@ function ArraySort(x) {
             b = x[iMore];
             console.log("Verifying: " + a + " with " + b + ".");
             if (x[i] > x[iMore]) {
-                console.log(a + " was bigger than " + "b, repeating algorithm.");
+                console.log(a + " was bigger than " + b + ", repeating algorithm.");
                 ArraySort(x);
                 break;
             }
