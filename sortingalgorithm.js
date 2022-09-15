@@ -21,6 +21,7 @@ function ArraySortSeconder(x) {
     console.log("Final result: " + x);
 }
 
+//==== Call this function to start the sort ====
 function ArraySortPrimer(x) {
     ArraySortSeconder(x);
     console.log("After " + iterations + " iterations!");
